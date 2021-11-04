@@ -1,0 +1,13 @@
+eureka:
+  client:
+    serviceUrl: #注册中心的注册地址
+      defaultZone: http://127.0.0.1:9000/eureka/,http://127.0.0.1:9001/eureka/
+  instance:
+    prefer-ip-address: true
+
+server:
+  port: 8011  #服务端口号
+
+spring:
+  application:
+    name: product-provider1 #服务名称--调用的时候根据名称来调用该服务的方法
