@@ -1,0 +1,9 @@
+rootProject.name = 'Erueka-mine'
+include 'EurekaServer'
+include 'ProductProvider'
+include 'ProductService'
+include 'ProductConsumer'
+include 'Eureka'
+include 'EurekaServer2'
+include 'ProductProvider2'
+
